@@ -1,0 +1,7 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+    {
+        int i,j,suma,z1,z,l;
+        char c,c1='a', c2='z'+1;
