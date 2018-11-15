@@ -8,3 +8,19 @@ int main()
  printf("Podaj dwie liczby calkowite:\n");
         scanf("%d%d",&i,&j);
         printf("  %d + %d = %d  \n",i,j,i+j);
+       if(i%2==0){
+                printf("liczba %d jest parzysta \n",i );
+            }
+            else{
+                printf("liczba %d jest nieparzysta \n",i);
+            }
+
+
+            if(j%2==0){
+                printf("liczba %d jest parzysta \n",j );
+            }
+            else{
+                printf("liczba %d jest nieparzysta \n",j);
+            }
+            printf("______________________________\n\n");
+        for(i=2;i<=13;i++)
