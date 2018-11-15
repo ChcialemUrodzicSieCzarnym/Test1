@@ -5,3 +5,6 @@ int main()
     {
         int i,j,suma,z1,z,l;
         char c,c1='a', c2='z'+1;
+ printf("Podaj dwie liczby calkowite:\n");
+        scanf("%d%d",&i,&j);
+        printf("  %d + %d = %d  \n",i,j,i+j);
